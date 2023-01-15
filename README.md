@@ -1,30 +1,30 @@
 
 ## PRIDE NUTRITION 🦁 Title
 <p align="center">
-      <img src="pride1.png" width="726">
+      <img src="pride1.jpg" width="726">
 </p>
 
 <p align="center">
-      <img src="pride2.png" width="726">
+      <img src="pride2.jpg" width="726">
 </p>
 <p align="center">
-      <img src="pride3.png" width="726">
+      <img src="pride3.jpg" width="726">
 </p>
 <p align="center">
-      <img src="pride4.png" width="726">
+      <img src="pride4.jpg" width="726">
 </p>
 <p align="center">
-      <img src="pride5.png" width="726">
+      <img src="pride5.jpg" width="726">
 </p>
 <p align="center">
-      <img src="pride6.png" width="726">
+      <img src="pride6.jpg" width="726">
 </p>
 <br>
 
 ## Other Devices 📱
 <p align="center">
-      <img src="pride iphone.png" width="250">
-      <img src="pride ipad.png" width="400">
+      <img src="iphonepride.png" width="250">
+      <img src="ipadpride.png" width="400">
 </p>
 
 
