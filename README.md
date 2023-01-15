@@ -1,14 +1,30 @@
 
-## Lisana E-Commerce Title
+## PRIDE NUTRITION 🦁 Title
 <p align="center">
-      <img src="lisana_title.png" width="726">
+      <img src="pride1.png" width="726">
+</p>
+
+<p align="center">
+      <img src="pride2.png" width="726">
+</p>
+<p align="center">
+      <img src="pride3.png" width="726">
+</p>
+<p align="center">
+      <img src="pride4.png" width="726">
+</p>
+<p align="center">
+      <img src="pride5.png" width="726">
+</p>
+<p align="center">
+      <img src="pride6.png" width="726">
 </p>
 <br>
 
- 
-## Lisana Shop 💰  
+## Other Devices 📱
 <p align="center">
-      <img src="lisana_shop.png" width="726">
+      <img src="pride iphone.png" width="250">
+      <img src="pride ipad.png" width="400">
 </p>
 
 
