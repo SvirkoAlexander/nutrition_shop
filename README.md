@@ -1,41 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Lisana E-Commerce Title
+<p align="center">
+      <img src="lisana_title.png" width="726">
+</p>
+<br>
 
-First, run the development server:
+ 
+## Lisana Shop 💰  
+<p align="center">
+      <img src="lisana_shop.png" width="726">
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+   <img src="https://img.shields.io/badge/version-chrome-green" alt="web">
+   <img src="https://img.shields.io/badge/-React%2FRedux-blue" alt="framework">
+   <img src="https://img.shields.io/badge/-FireBase-orange" alt="framework">
+   
+</p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Описание
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Создание и развёртка интернет-магазина косметики Lisana. Использование современных технологий веб-разработки React Redux Toolkit FireBase. Смотрите другие мои работы!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Запросы клиента
 
-## Learn More
+Клиент попросил разработать интернет-магазин с панелью администратора для самостоятельного пополнения товаров и контроля пользователей. Для Back-end я использовал Redux и Firebase для реализации регистрации и админ-панели. 
 
-To learn more about Next.js, take a look at the following resources:
+## Description
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Creation and deployment of an online cosmetics store Lisana. Using modern web development technologies React Redux Toolkit FireBase. See my other works!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Requests
 
-## Deploy on Vercel
+The client asked to develop an online store with an admin panel for self-replenishment of goods and user control. For the Back-end, I used Redux and Firebase to implement the registration and admin panel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## View Work
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# sanityapp
-# sanityapp
-# sanity
-# sanityShop
-# ecommerce_nutrition
-# ecommerce_nutrition
-# ecommerce_nutrition
+- 👀 [
+Просмотр работы](https://lisana.netlify.app/)
+
+
+## 💻 Developer
+
+- [SvirkoAlexander](https://github.com/SvirkoAlexander)
+
+## License 
+
+Project is distributed under the MIT License.
