@@ -1,5 +1,5 @@
 
-## PRIDE NUTRITION 🦁 Title
+## ECOMMERCE PRIDE NUTRITION 🦁 
 <p align="center">
       <img src="pride1.jpg" width="726">
 </p>
@@ -29,32 +29,33 @@
 
 
 <p align="center">
-   <img src="https://img.shields.io/badge/version-chrome-green" alt="web">
-   <img src="https://img.shields.io/badge/-React%2FRedux-blue" alt="framework">
-   <img src="https://img.shields.io/badge/-FireBase-orange" alt="framework">
+   <img src="https://img.shields.io/badge/VERSION-CHROME-green" alt="chrome">
+   <img src="https://img.shields.io/badge/NEXT-STRIPE-black" alt="framework">
+   <img src="https://img.shields.io/badge/-SANITY-red" alt="backend">
    
 </p>
 
 ## Описание
 
-Создание и развёртка интернет-магазина косметики Lisana. Использование современных технологий веб-разработки React Redux Toolkit FireBase. Смотрите другие мои работы!
+Создание, адаптация и развёртка интернет-магазина спортивного питания PRIDE NUTRITION. Использование современных технологий веб-разработки NEXT.JS & SANITY. +подключение системы оплаты STRIPE. Смотрите другие мои работы!
 
 ## Запросы клиента
 
-Клиент попросил разработать интернет-магазин с панелью администратора для самостоятельного пополнения товаров и контроля пользователей. Для Back-end я использовал Redux и Firebase для реализации регистрации и админ-панели. 
+Клиент заказал разработать интернет-магазин для различных устройств с максимально возможной оптимизацией сайта для этого я использовал NEXT.js для back-end я использовал SANITY. Также интегрировал систему оплаты STRIPE.
 
 ## Description
 
-Creation and deployment of an online cosmetics store Lisana. Using modern web development technologies React Redux Toolkit FireBase. See my other works!
+Creation, adaptation and deployment of an online store of sports nutrition PRIDE NUTRITION. Use of modern web development technologies NEXT.JS & SANITY. + connection of the STRIPE payment system. See my other works!
 
 ## Requests
 
-The client asked to develop an online store with an admin panel for self-replenishment of goods and user control. For the Back-end, I used Redux and Firebase to implement the registration and admin panel.
+
+The client ordered to develop an online store for various devices with the maximum possible optimization of the site for this I used NEXT, lkz back-end I used SANITY. Also integrated the STRIPE payment system.
 
 ## View Work
 
 - 👀 [
-Просмотр работы](https://lisana.netlify.app/)
+Просмотр работы](https://nutrition-shop.vercel.app)
 
 
 ## 💻 Developer
