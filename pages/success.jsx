@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { BsBagCheckFill } from 'react-icons/bs'
+import bg from "../image/hero-img3.jpg";
 
 
 import { useStateContext } from '../context/StateContext'
@@ -21,8 +22,13 @@ const Success = () => {
 
 
 	return (
-		<div className='success-wrapper'>
-			<div className="success">
+		<div className='success-wrapper' >
+			<div className="success" style={{
+				backgroundImage: `url(${bg.src})`,
+				width: '90%',
+				height: '400px' 
+			
+		}}>
 				<p className="icon">
 					<BsBagCheckFill/>
 				</p>

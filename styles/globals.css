@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel&family=Cinzel+Decorative&family=Cormorant+Garamond:wght@300&family=Cormorant+Unicase:wght@300&family=Fauna+One&family=Montserrat:wght@400;600;700&family=Rubik+Vinyl&display=swap");
 html,
 body,
 * {
   padding: 0;
   margin: 0;
-  font-family: Cinzel;
+  font-family: Cinzel, Cormorant Unicase;
   box-sizing: border-box;
   font-size: 0.9rem;
 }
@@ -34,7 +34,7 @@ a {
 }
 .LOGO {
   float: right;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 .navbar-container img {
   width: 50px;
@@ -124,7 +124,7 @@ span.text-red {
 }
 .product-image {
   border-radius: 15px;
-  background-color: rgba(255, 192, 203, 0.391);
+  background-color: rgba(198, 198, 198, 0.5);
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
@@ -199,11 +199,11 @@ span.text-red {
 .hero-banner-image {
   animation: home 15s linear infinite;
   animation-duration: 12s;
-  margin: 0 0px 0px 0;
+  margin: -100px 0px 0px 0;
   cursor: pointer;
   position: absolute;
   top: 10%;
-  right: 6%;
+  right: 5%;
   width: 400px;
   height: 400px;
   z-index: 0 !important;
@@ -274,6 +274,7 @@ span.text-red {
 .banner-desc {
   display: flex;
   justify-content: space-between;
+  gap: 50px;
 }
 .banner-desc button {
   transform: scale(1, 1);
@@ -293,21 +294,24 @@ span.text-red {
 .banner-desc button:hover {
   transform: scale(1.1, 1.1);
 }
+.banner-desc .left {
+  line-height: 1;
+}
 .banner-desc .left h3 {
   font-weight: 900;
   font-size: 30px;
 }
 .banner-desc .left h2 {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 15px;
 }
 .banner-desc .left p {
   margin: 40px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .footer-banner-image {
   position: absolute;
-  width: 450px;
+  width: 350px;
   top: 15%;
   left: 60%;
   animation: footer linear infinite;
@@ -336,10 +340,13 @@ span.text-red {
 .banner-desc .right h3 {
   font-weight: 800;
   font-size: 40px;
+  text-align: right;
 }
 .banner-desc .right p {
   font-size: 20px;
   line-height: 2;
+  display: flex;
+  justify-content: right;
 }
 .banner-desc .right .company-desc {
   font-size: 16px;
@@ -381,6 +388,13 @@ span.text-red {
   font-size: 30px;
   display: flex;
   gap: 10px;
+  cursor: pointer;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.icons:hover {
+  transform: scale(1.1, 1.1);
 }
 .cart-heading {
   color: #adebf7;
@@ -420,30 +434,37 @@ span.text-red {
 .product-container {
   margin-top: 15px;
   overflow: auto;
-  max-height: 70vh;
+  max-height: 65vh;
   padding: 20px 10px;
 }
 .media {
   font-size: 50px;
   margin-top: 20px;
-}
-.media {
-  margin-top: 40px;
-  font-size: 40px;
-  color: #adebf7;
+  cursor: pointer;
 }
 .media p {
-  margin-top: -60px;
-  margin-left: 40px;
-  font-size: 20px;
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 8px;
+  color: #e4243bb8;
 }
+.icons2 svg {
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+
+.icons2 svg:hover {
+  transform: scale(1.2, 1.2);
+}
+
 .product {
   display: flex;
   gap: 30px;
   padding: 20px;
 }
 .product .cart-product-image {
-  width: 170px;
+  width: 150px;
   height: 150px;
   border-radius: 15px;
   background-color: rgba(255, 192, 203, 0.391);
@@ -465,8 +486,9 @@ span.text-red {
 }
 .total {
   display: flex;
+
   justify-content: space-between;
-  color: #adebf7;
+  color: white;
 }
 .total h3 {
   font-size: 23px;
@@ -520,14 +542,15 @@ span.text-red {
 
 .product-detail-image {
   border-radius: 15px;
-  background-color: rgba(255, 192, 203, 0.391);
-  width: 450px;
+  background-color: rgba(198, 198, 198, 0.5);
+  width: 400px;
   height: 400px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+
 .product-detail-image:hover {
-  background-color: #adebf7;
+  background-color: #f99ff4;
 }
 .small-images-container {
   display: flex;
@@ -543,7 +566,7 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #adebf7;
+  background-color: #f99ff4;
 }
 .reviews {
   color: #f02d34;
@@ -674,7 +697,7 @@ span.text-red {
 .cancel {
   width: 1000px;
   margin: auto;
-  margin-top: 160px;
+  margin-top: 100px;
   background-color: #dcdcdc;
   padding: 50px;
   border-radius: 15px;
@@ -685,18 +708,20 @@ span.text-red {
 }
 
 .success .icon {
-  color: green;
-  font-size: 40px;
+  color: rgb(10, 143, 10);
+}
+.icon svg {
+  font-size: 30px;
 }
 .success h2 {
   text-transform: capitalize;
   margin-top: 15px 0px;
   font-weight: 900;
   font-size: 40px;
-  color: #324d67;
+  color: #eaedf0;
 }
 .success .email-msg {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
 }
@@ -705,7 +730,7 @@ span.text-red {
   font-weight: 600;
 }
 .success .description {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   text-align: center;
   margin: 10px;
@@ -723,16 +748,22 @@ span.text-red {
   .main-container {
     width: 980px;
   }
+	.product-container {
+		margin-top: 15px;
+		overflow: auto;
+		max-height: 65vh;
+		padding: 20px 10px;
+	}
   .hero-banner-container {
     height: 600px;
     padding: 50px 30px;
   }
   .hero-banner-image {
     margin: 20px 20px 0 0;
-    width: 400px;
-    height: 400px;
-    top: 35%;
-    right: 10%;
+    width: 300px;
+    height: 300px;
+    top: 42%;
+    right: 20%;
     z-index: 0;
   }
   .hero-banner-container {
@@ -755,10 +786,10 @@ span.text-red {
   }
 
   .footer-banner-image {
-    width: 30%;
+    width: 20%;
     left: 60%;
     top: 50%;
-    height: 70%;
+    height: 50%;
     margin: 10px 0px 0px 0;
     z-index: 000;
   }
@@ -768,21 +799,25 @@ span.text-red {
   }
   .banner-desc .left p {
     margin: 30px 0px;
-    font-size: 30px;
-    line-height: 3;
+    font-size: 20px;
+    line-height: 4;
   }
   .banner-desc .right h3 {
     font-size: 30px;
+    display: flex;
+    text-align: right;
   }
   .banner-desc .right p {
     font-size: 15px;
+    line-height: 5;
+    display: flex;
+    justify-content: right;
   }
   .banner-desc .right .company-desc {
     font-size: 14px;
   }
-  .banner-desc {
-    flex-wrap: wrap;
-    gap: 20px;
+  .banner-desc .right button {
+    margin-left: 26rem;
   }
   .navbar-container {
     display: flex;
@@ -809,13 +844,12 @@ span.text-red {
   }
   .cart-container {
     width: 600px;
-    height: 900px;
     padding: 4px;
     border-radius: 10px;
   }
   .cart-wrapper {
     width: 1050px;
-    height: 900px;
+    height: 2000px;
   }
   .cart-heading {
     margin-top: 20px;
@@ -834,9 +868,11 @@ span.text-red {
     padding-right: 20px;
   }
   .product-container {
-    display: flex;
-    justify-content: center;
-  }
+		margin-top: 15px;
+		overflow: auto;
+		max-height: 90vh;
+		padding: 20px 10px;
+	}
 
   .hero-banner-container {
     height: 600px;
@@ -853,12 +889,11 @@ span.text-red {
   }
   .cart-container {
     width: 500px;
-    height: 1020px;
     padding: 4px;
     border-radius: 10px;
   }
   .cart-wrapper {
-    width: 800px;
+    width: 500px;
     height: 1020px;
   }
   .cart-heading {
@@ -904,7 +939,7 @@ span.text-red {
   }
   .cart-wrapper {
     width: 1050px;
-    height: 1200px;
+    height: 1500px;
   }
   .cart-heading {
     margin-top: 20px;
@@ -924,7 +959,7 @@ span.text-red {
     margin: auto;
   }
   .hero-banner-image {
-    margin: 140px 0px 0px 0;
+    margin: 100px 0px 0px 0;
     width: 200px;
     height: 200px;
     top: 35%;
@@ -937,33 +972,37 @@ span.text-red {
   }
   .footer-banner-image {
     width: 55%;
-    left: 50%;
+    left: 42%;
     top: 57%;
-    height: 40%;
-    margin: 10px 0px 0px 0;
+    height: 35%;
+    margin: 40px 0px 0px 0;
     z-index: 000;
   }
   .banner-desc .left h3 {
     font-weight: 900;
     font-size: 20px;
   }
+  .banner-desc .left h2 {
+    font-weight: 900;
+    font-size: 12px;
+  }
   .banner-desc .left p {
     margin: 30px 30px;
-    font-size: 20px;
-    line-height: 1;
+    font-size: 15px;
+    line-height: 3;
   }
   .banner-desc .right h3 {
     font-size: 20px;
   }
   .banner-desc .right p {
-    font-size: 13px;
+    font-size: 10px;
   }
   .banner-desc .right .company-desc {
     font-size: 14px;
   }
   .banner-desc {
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2px;
   }
   .hero-banner-container {
     line-height: 1.2;
@@ -986,6 +1025,10 @@ span.text-red {
   .hero-banner-container button {
     margin-top: 100px;
   }
+
+  .media {
+    margin-left: 5px;
+  }
   .desc {
     bottom: 20px;
   }
@@ -998,9 +1041,9 @@ span.text-red {
   }
   .product-detail-image {
     border-radius: 15px;
-    background-color: rgba(255, 192, 203, 0.391);
+    background-color: rgba(198, 198, 198, 0.5);
     width: 350px;
-    height: 300px;
+    height: 350px;
     margin: 0;
     transition: 0.3s ease-in-out;
   }
@@ -1023,6 +1066,10 @@ span.text-red {
   .cart-heading {
     margin-top: 30px;
   }
+	.heading,
+	.cart-num-items{
+		font-size: 15px;
+	}
 
   .product {
     padding: 20px 5px;
@@ -1031,11 +1078,11 @@ span.text-red {
     font-size: 32px;
   }
   .product .cart-product-image {
-    width: 25%;
-    height: 25%;
+    width: 80px;
+    height: 80px;
   }
   .buttons .add-to-cart {
-    width: 170px;
+    width: 150px;
   }
   .buttons .buy-now {
     width: 170px;
@@ -1094,7 +1141,7 @@ span.text-red {
     font-size: 15px;
   }
   .maylike-products-wrapper h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .products-container {
     display: flex;

@@ -1,5 +1,8 @@
 import Link from "next/link";
-import bg from "../image/cosmitics-bg22.jpg";
+import { AiFillInstagram } from "react-icons/ai";
+import { RiTelegramLine } from "react-icons/ri";
+import { SlSocialVkontakte } from "react-icons/sl";
+import bg from "../image/sportpit2.jpg";
 
 import { urlFor } from "../lib/client";
 
@@ -8,8 +11,7 @@ const HeroBanner = ({ heroBanner }) => {
     <div
       className="hero-banner-container"
       style={{
-				backgroundImage: `url(${bg.src})`,
-				
+        backgroundImage: `url(${bg.src})`,
       }}
     >
       <div>
@@ -17,8 +19,7 @@ const HeroBanner = ({ heroBanner }) => {
         <h3>{heroBanner.midText}</h3>
         <h1>{heroBanner.largeText1}</h1>
         <h2>
-          Подарите своей коже незабываемый уход и наслаждение с косметикой из
-          натуральных масел.
+          Магазин спортивного питания Минск. Большой ассортимент, лучшее качесто на рынке, закзывай и получи скидку 20%.
         </h2>
         <img
           src={urlFor(heroBanner.image)}
@@ -30,9 +31,17 @@ const HeroBanner = ({ heroBanner }) => {
           <Link href={`/product/${heroBanner.product}`}>
             <button type="button">{heroBanner.buttonText}</button>
           </Link>
-          {/*<div className="media"><AiFillInstagram /> 
-						<p>instagram</p>
-	        </div> */}
+
+          <div className="media">
+						<p className="icons2">
+							<Link href='https://www.instagram.com/svirkosam/'>
+              <AiFillInstagram size={30} />
+							</Link>
+
+              <SlSocialVkontakte size={30} />
+              <RiTelegramLine size={30} />
+            </p>
+          </div>
 
           <div className="desc">
             <h5>Контактный тел.</h5>

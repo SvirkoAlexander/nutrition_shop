@@ -19,10 +19,7 @@ const ProductDetails = ({ product, products }) => {
       <div className="product-detail-container">
         <div>
           <div className="image-container">
-            <img
-              src={urlFor(image && image[index])}
-              className="product-detail-image"
-            />
+            <img src={urlFor(image && image[index])} className="product-detail-image" />
           </div>
           <div className="small-images-container">
             {image?.map((item, i) => (
@@ -38,7 +35,7 @@ const ProductDetails = ({ product, products }) => {
           </div>
         </div>
         <div className="product-detail-desc">
-          <span>Скраб для тела</span>
+          <span></span>
           <h1>{name}</h1>
           <div className="reviews">
             <div>
@@ -81,7 +78,7 @@ const ProductDetails = ({ product, products }) => {
       </div>
 
       <div className="maylike-products-wrapper">
-        <h2>Вам может понравиться ⬇️</h2>
+        <h2>⬇️ Вам может понравиться ⬇️</h2>
         <div className="marquee">
           <div className="maylike-products-container track">
             {products.map((item) => (

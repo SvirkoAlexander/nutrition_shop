@@ -1,5 +1,5 @@
 import Link from "next/link";
-import bg from "../image/footer2.jpg";
+import bg from "../image/sportpit4.jpg";
 import { urlFor } from "../lib/client";
 
 const FooterBanner = ({
